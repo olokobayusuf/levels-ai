@@ -6,7 +6,7 @@ We use [uv](https://docs.astral.sh/uv/getting-started/installation/) to manage p
 First, clone this repository. Next, install Python dependencies:
 ```sh
 # Install dependencies
-$ uv pip install -r requirements.txxt
+$ uv pip install -r requirements.txt
 ```
 
 ## Learnings
