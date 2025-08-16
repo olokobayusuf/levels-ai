@@ -9,6 +9,26 @@ First, clone this repository. Next, install Python dependencies:
 $ uv pip install -r requirements.txt
 ```
 
+Next, add the MCP server to Cursor:
+```json5
+{
+  // Add the `levels-ai` server to Cursor's `mcp.json`
+  "mcpServers": {
+    "levels-ai": {
+      "command": "/Users/yusuf/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/yusuf/Documents/Projects/olokobayusuf/levels-ai",
+        "run",
+        "--env-file",
+        "/Users/yusuf/Documents/Projects/olokobayusuf/levels-ai/.env",
+        "server.py"
+      ]
+    }
+  }
+}
+```
+
 ## Learnings
 In no particular order:
 
