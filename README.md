@@ -18,10 +18,10 @@ Next, add the MCP server to Cursor:
       "command": "/Users/yusuf/.local/bin/uv",
       "args": [
         "--directory",
-        "/Users/yusuf/Documents/Projects/olokobayusuf/levels-ai",
+        "/path/to/levels-ai",
         "run",
         "--env-file",
-        "/Users/yusuf/Documents/Projects/olokobayusuf/levels-ai/.env",
+        "/path/to/levels-ai/.env",
         "server.py"
       ]
     }
