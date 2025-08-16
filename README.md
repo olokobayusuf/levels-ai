@@ -1,5 +1,5 @@
 # Levels AI
-*INCOMPLETE*
+AI models using AI models to build AI pipelines. Powered by MCP.
 
 ## Setup Instructions
 We use [uv](https://docs.astral.sh/uv/getting-started/installation/) to manage packages.
