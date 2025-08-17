@@ -3,7 +3,7 @@ AI models using AI models to build AI pipelines. Powered by MCP.
 
 ## Setup Instructions
 We use [uv](https://docs.astral.sh/uv/getting-started/installation/) to manage packages.
-First, clone this repository. Next, install Python dependencies:
+First, install Python dependencies:
 ```sh
 # Install dependencies
 $ uv pip install -r requirements.txt
@@ -18,7 +18,7 @@ MUNA_ACCESS_KEY=<paste access key here>
 Finally, add the MCP server to Cursor:
 ```json5
 {
-  // Add the `levels-ai` server to Cursor's `mcp.json`
+  // Add the `levels-ai` MCP server to Cursor's `mcp.json`
   "mcpServers": {
     "levels-ai": {
       "command": "/absolute/path/to/uv",  // update this path...
