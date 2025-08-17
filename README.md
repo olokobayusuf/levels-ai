@@ -9,25 +9,34 @@ First, clone this repository. Next, install Python dependencies:
 $ uv pip install -r requirements.txt
 ```
 
-Next, add the MCP server to Cursor:
+Next, sign up to [Muna](https://muna.ai) and generate an [access key](https://www.muna.ai/settings/developer). Then rename `.env.example` to `.env` and insert your access key:
+```bash
+# Muna access key
+MUNA_ACCESS_KEY=<paste access key here>
+```
+
+Finally, add the MCP server to Cursor:
 ```json5
 {
   // Add the `levels-ai` server to Cursor's `mcp.json`
   "mcpServers": {
     "levels-ai": {
-      "command": "/Users/yusuf/.local/bin/uv",
+      "command": "/absolute/path/to/uv",  // update this path...
       "args": [
         "--directory",
-        "/path/to/levels-ai",
+        "/path/to/levels-ai",             // and this path...
         "run",
         "--env-file",
-        "/path/to/levels-ai/.env",
+        "/path/to/levels-ai/.env",        // and this path 😅
         "server.py"
       ]
     }
   }
 }
 ```
+
+> [!TIP]
+> You can get the path to your `uv` executable by running `which uv` in Terminal.
 
 ## Learnings
 In no particular order:
