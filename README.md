@@ -15,7 +15,7 @@ Next, sign up to [Muna](https://muna.ai) and generate an [access key](https://ww
 MUNA_ACCESS_KEY=<paste access key here>
 ```
 
-> [!INFO]
+> [!NOTE]
 > We use Muna to create a single binary executable that contains an AI model and all the 
 > code it needs to run on any device. It is not required to build this MCP, but makes 
 > the process of discovering and invoking AI models so much easier.
